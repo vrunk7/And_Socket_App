@@ -1,4 +1,4 @@
-# 📡 NOC Command Center (SysAdmin Socket Tool)
+# NOC Command Center (SysAdmin Socket Tool)
 
 ![Status](https://img.shields.io/badge/Status-Operational-brightgreen) ![Tech](https://img.shields.io/badge/Stack-Flutter%20%7C%20Python%20%7C%20SQLite-blue)
 
@@ -98,3 +98,4 @@ flutter run --release
 ```bash
 python Backend/check_db.py
 ```
+
