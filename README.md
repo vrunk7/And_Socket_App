@@ -27,12 +27,12 @@ In a real-world data center, servers don't wait for you to be at your desk to cr
 
 ## Project Structure
 ```text
-Socket-SysAdmin-Tool/
+And_Socket_App/
 ├── Backend/
 │   ├── server.py          # The Multi-threaded Python Server
 │   ├── check_db.py        # Audit script to verify database records
 │   └── sysadmin_logs.db   # (Created automatically upon running)
-├── /
+├── sysadmin_log_tool/
 │   ├── lib/main.dart      # The Flutter Frontend & Socket Logic
 │   └── pubspec.yaml       # Project dependencies
 └── README.md
