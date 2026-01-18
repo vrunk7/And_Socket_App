@@ -25,7 +25,7 @@ In a real-world data center, servers don't wait for you to be at your desk to cr
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ```text
 Socket-SysAdmin-Tool/
 ├── Backend/
@@ -45,15 +45,14 @@ Socket-SysAdmin-Tool/
 - Flutter SDK installed and set up
 - An Android device connected via USB  
 - **Important:** Both the PC and the Android phone must be connected to the **same Wi-Fi Network**
---
+
+
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/vrunk7/Socket-SysAdmin-Tool.git
-cd Socket-SysAdmin-Tool
+git clone https://github.com/vrunk7/And_Socket_App.git
+cd And_Socket_App
 ```
 
-> Important: Both the PC and the Android phone must be connected to the same Wi-Fi Network.
---
 ### Step 2: Configure the Backend (Server)
 1. Open your command prompt/terminal.
 2. Find your local IP Address:
@@ -65,7 +64,8 @@ cd Backend
 python server.py
 ```
 4.You should see the message: [*] SysAdmin Server Online...
---
+
+
 ### Step 3: Configure the Frontend (Client)
 1. Open the file sysadmin_log_tool/lib/main.dart in VS Code.
 2. Locate the serverIP variable (around line 40):
@@ -74,7 +74,8 @@ python server.py
 final String serverIP = '192.168.0.103';
 ```
 3. Save the file.
---
+
+
 ### Step 4: Run the Application
 1. Connect your Android phone via USB.
 2. In your terminal, navigate to the mobile app folder:
@@ -85,9 +86,8 @@ cd ../sysadmin_log_tool
 ```bash
 flutter run --release
 ```
-
 ---
-## 🎮 How to Use (Demo Flow)
+## How to Use (Demo Flow)
 1. **Check Connection**: Tap the **"CHECK SERVER HEALTH"** button. You should see the total log count from the server.
 2. **Send a Log**:
  - Select a Severity Level (e.g., **WARNING**).
@@ -98,4 +98,3 @@ flutter run --release
 ```bash
 python Backend/check_db.py
 ```
-
